@@ -1,0 +1,187 @@
+.ai{
+    background-image: url("./images/blue-screen-background-1280-x-720-8iw3i8lgj1fd7hku.jpg");
+    height: 30vh;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ai p{
+    font-size: 50px;
+    font-weight: bold;
+}
+.tab{
+    border: 1px solid white;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+.tab-container {
+    overflow: hidden;
+    padding: 10px;
+}
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+.straight-line {
+    /* Styling for the line beneath the title */
+    display: block;
+    border-bottom: 2px solid #D39E48; /* Adjust color as needed */
+    margin-bottom: 10px; /* Add some spacing below the line */
+}
+.tabcontent h3 {
+    margin-top: 0;
+}
+/* Styles for the tab buttons */
+.tablinks {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+    margin-right: 50px;
+  }
+  
+  .tablinks.active {
+    background-color: white;
+    color: #007bff;
+    border-bottom: 2px solid #D39E48; /* Adjust color as needed */
+  }
+  
+  .tablinks:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+  .course_info{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+  }
+  .icons{
+    display: flex;
+    gap: 12px;
+    padding: 15px;
+    /* margin-left: 20px; */
+    text-align: center;
+    justify-content: center;
+  }
+  .course_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  .details_of_course{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow:5px 5px 5px rgba(255, 243, 243, 0.2);
+    background-color: white;
+    width:1250px;
+    position: relative;
+    bottom:  100px;
+    left: 300px;
+  }
+a{
+  text-decoration: none;
+}
+
+.content_questions{
+    display: flex;
+    gap: 12px;
+    padding: 13px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: #F9FAFC;
+    margin-bottom: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+.content_questions h5,
+.about_questions h5,
+.author_questions h5 {
+  color: #000;
+}
+.content_questions h5:hover,
+.about_questions h5:hover,
+.author_questions h5:hover {
+  color: #D39E48;
+}
+.about_questions.hidden {
+  display: none;
+}
+.author_questions.hidden {
+  display: none;
+}
+.about_questions,.author_questions{
+    display: block;
+    gap: 12px;
+    padding: 13px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: #F9FAFC;
+    margin-bottom: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .btn-custom {
+    display: block;
+    /* width: 50%; Adjust width as needed */
+    margin: 0 auto; /* Centers the button horizontally */
+    text-align: center; /* Centers the button text */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #6c757d; /* Border color */
+    border-radius: 5px; /* Border radius */
+    text-decoration: none; /* Removes default link underline */
+    color: #6c757d; /* Button text color */
+    background-color: transparent; /* Button background color */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .btn-custom:hover {
+    background-color: #6c757d; /* Background color on hover */
+    color: #f8f9fa; /* Background color on hover */
+  }
+
+  @media screen and (max-width: 768px) {
+    .details_of_course{
+      box-shadow:5px 5px 5px rgba(255, 243, 243, 0.2);
+      background-color: white;
+      width:auto;
+      position:relative;
+      bottom: 70px;
+      left:0px;
+      padding:2px;
+    }
+    .course_description{
+      flex-direction: column;
+    }
+    img{
+      width: 100%;
+    }
+    .course_info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+      }
+      .tablinks{
+        margin-right:10px;
+      }
+      .tab{
+        text-align: center;
+      }
+  }

@@ -1,0 +1,61 @@
+.course_category{
+    background-image: url("./images/blue-screen-background-1280-x-720-8iw3i8lgj1fd7hku.jpg");
+    height: 40vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.course_category a{
+    color: white;
+    font-size: 20px;
+    /* text-decoration: none;  */
+}
+a{
+    text-decoration: none;
+}
+.course_category p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.grid{
+    display: grid; 
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.courses{
+    width: 80%; 
+    margin: 50px auto;
+    color: black;
+}
+.item_description{
+    display: inline-block;
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    padding: 15px 8px 15px 20px;
+}
+.item_description h3{
+    font-size: 30px;
+    font-weight:600;
+    color: black;
+}
+.item_description p{
+    font-size: 20px;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .item_description h3{
+        display: inline;
+        font-size: 15px;
+        font-weight:500;
+    }
+}
