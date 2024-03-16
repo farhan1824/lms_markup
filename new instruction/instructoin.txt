@@ -1,0 +1,3 @@
+category file start and category file end
+indexfile 5 ta hobe 
+css file 1tai e hobe
