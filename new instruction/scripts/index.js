@@ -127,8 +127,8 @@ document.addEventListener("DOMContentLoaded", function() {
 // for search
 
 document.addEventListener("DOMContentLoaded", function() {
-    //   const searchInput = document.getElementById('searchInput');
       const searchInput = document.getElementById('searchInput');
+    //   const searchInput = document.getElementsByClassName('wide-search');
       const cards = document.querySelectorAll('.card');
     
       searchInput.addEventListener('input', function() {
