@@ -274,9 +274,9 @@
 										
 										<div class="course_description">
 												
-										   <div class="d-flex gap-3 justify-content-center align-items-center">
+										   <div class="course_details">
 										
-											<i class="fa-solid fa-user fa-2xl" style="color: #74C0FC; margin-bottom:25px; margin-right:12px;"></i>
+											<i class="fa-solid fa-user fa-2xl" style="color:#D39E48 ; margin-bottom:25px; margin-right:12px;"></i>
 											<span>
 											  <h6>Author</h6>
 											  <p>Marian Kanev</p>
@@ -290,7 +290,7 @@
 											  <p>beginner</p>
 											</span>
 										   </div>
-										   <div class="d-flex gap-4 justify-content-center align-items-center">
+										   <div class="course_details">
 											<span>
 											  <h6>Units</h6>
 											  <p>10</p>
@@ -310,135 +310,227 @@
 										<div class="course_info ">
 											<div class="tab-container container">
 												<div class="tab">
-														<button class="tablinks" onclick="openTab(event, 'tab1')">Content</button>
-														<button class="tablinks" onclick="openTab(event, 'tab2')">About</button>
-														<button class="tablinks" onclick="openTab(event, 'tab3')">Author</button>
+														<button class="tablinks" onclick="openTab(event, 'tab1')"><i class="fa-solid fa-book" style="color: #003a99;"></i>Content</button>
+														<button class="tablinks" onclick="openTab(event, 'tab2')"><i class="fa-solid fa-truck-fast" style="color: #003a85;"></i>About</button>
+														<button class="tablinks" onclick="openTab(event, 'tab3')"><i class="fa-solid fa-id-card" style="color: #003a85;"></i>Author</button>
 												</div>
 <!-- tab 1  -->											  
 												<div id="tab1" class="tabcontent" style="display: block;">
 										<!-- tab 1 -->
+												<h1 class="course_title">Content</h1>										
+											  <a href="#" class="content_questions">
+											<div class="left-columns">
 										
-											  <a href="#" class="content_questions">
-												<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-												<h5>Quizz - Benifits for SEMs</h5>
+												<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+												<h5 class="column">Quizz - Benifits for SEMs</h5>
+											</div>
+												<div class="right-columns">
+													<h6 class="column">4 question</h6>
+													<i class="fa-solid fa-check column" style="color: green;"></i>
+												</div>
 											  </a>
 											  <a href="#" class="content_questions">
-												<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-												<h5>Quizz - Benifits for SEMs</h5>
+											<div class="left-columns">
+													<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+												<h5 class="column">Quizz - Benifits for SEMs</h5>
+											</div>
+												<div class="right-columns">
+													<!-- <h6 class="column">4 question</h6> -->
+													<i class="fa-solid fa-check column" style="color: green;"></i>
+												</div>
 											  </a>
 											  <a href="#" class="content_questions">
-												<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-												<h5>Quizz - Benifits for SEMs</h5>
-											  </a>
-											  <a href="#" class="content_questions">
-												<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-												<h5>Quizz - Benifits for SEMs</h5>
-											  </a>
+											<div class="left-columns">
 										
-												<button id="load-more-btn" class="btn btn-custom mb-2">Load More</button>
+												<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+												<h5 class="column">Quizz - Benifits for SEMs</h5>
+											</div>
+												<div class="right-columns">
+													<h6 class="column">4 question</h6>
+													<i class="fa-solid fa-check column" style="color: green;"></i>
+												</div>
+											  </a>
+											  <a href="#" class="content_questions">
+											<div class="left-columns">
+													<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+												<h5 class="column">Quizz - Benifits for SEMs</h5>
+											</div>
+												<div class="right-columns">
+													<!-- <h6 class="column">4 question</h6> -->
+													<i class="fa-solid fa-check column" style="color: green;"></i>
+												</div>
+											  </a>
+											  <a href="#" class="content_questions">
+											<div class="left-columns">
+										
+												<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+												<h5 class="column">Quizz - Benifits for SEMs</h5>
+											</div>
+												<div class="right-columns">
+													<h6 class="column">4 question</h6>
+													<i class="fa-solid fa-check column" style="color: green;"></i>
+												</div>
+											  </a>
+											  <a href="#" class="content_questions">
+											<div class="left-columns">
+													<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+												<h5 class="column">Quizz - Benifits for SEMs</h5>
+											</div>
+												<div class="right-columns">
+													<!-- <h6 class="column">4 question</h6> -->
+													<i class="fa-solid fa-check column" style="color: green;"></i>
+												</div>
+											  </a>
+
+
+										
+												<button id="load-more-btn" class="btn btn-custom mb-2">show more details</button>
 										
 												</div>
 <!-- tab 2  -->
 												<div id="tab2" class="tabcontent" style="display: none;">
-										
+													<h1 class="course_title">About</h1>
 												<a href="#" class="about_questions">
-												  <span class="d-flex align-items-center gap-2">
-													  <i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													<h5>Quizz - Benifits for SEMs tab 2</h5>
-												  </span>
+													<div class="left-columns">
+														<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<h6 class="column">4 question</h6>
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												</a>
 												<a href="#" class="about_questions">
-												  <span class="d-flex align-items-center gap-2">
-													  <i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													<h5>Quizz - Benifits for SEMs tab 2</h5>
-												  </span>
+													<div class="left-columns">
+														<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<!-- <h6 class="column">4 question</h6> -->
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												</a>
 												<a href="#" class="about_questions">
-												  <span class="d-flex align-items-center gap-2">
-													  <i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													<h5>Quizz - Benifits for SEMs tab 2</h5>
-												  </span>
+													<div class="left-columns">
+														<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<h6 class="column">4 question</h6>
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												</a>
 												<a href="#" class="about_questions">
-												  <span class="d-flex align-items-center gap-2">
-													  <i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													<h5>Quizz - Benifits for SEMs tab 2</h5>
-												  </span>
+													<div class="left-columns">
+														<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<!-- <h6 class="column">4 question</h6> -->
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												</a>
 												<a href="#" class="about_questions">
-												  <span class="d-flex align-items-center gap-2">
-													  <i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													<h5>Quizz - Benifits for SEMs tab 2</h5>
-												  </span>
+													<div class="left-columns">
+														<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<h6 class="column">4 question</h6>
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												</a>
 												<a href="#" class="about_questions">
-												  <span class="d-flex align-items-center gap-2">
-													  <i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													<h5>Quizz - Benifits for SEMs tab 2</h5>
-												  </span>
+													<div class="left-columns">
+														<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<!-- <h6 class="column">4 question</h6> -->
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												</a>
+
+
 										
 										 
-												  <button id="load-more-btn-tab-2" class="btn btn-custom mb-2">Load More</button>
+												  <button id="load-more-btn-tab-2" class="btn btn-custom mb-2">show more details</button>
 										   
 												</div>
 <!-- tab-3 -->
 												<div id="tab3" class="tabcontent" >
+													<h1 class="course_title">Author</h1>
 												  <a href="#" class="author_questions">
-													<span href="#" class="d-flex align-items-center gap-2">
-														<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													  <h5>Quizz - Benifits for SEMs tab 3</h5>
-													</span>
+													<div class="left-columns">
+														<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<!-- <h6 class="column">4 question</h6> -->
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												  </a>
 												  <a href="#" class="author_questions">
-													<span href="#" class="d-flex align-items-center gap-2">
-														<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													  <h5>Quizz - Benifits for SEMs tab 3</h5>
-													</span>
+													<div class="left-columns">
+														<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<h6 class="column">4 question</h6>
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												  </a>
 												  <a href="#" class="author_questions">
-													<span href="#" class="d-flex align-items-center gap-2">
-														<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													  <h5>Quizz - Benifits for SEMs tab 3</h5>
-													</span>
+													<div class="left-columns">
+														<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<!-- <h6 class="column">4 question</h6> -->
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												  </a>
 												  <a href="#" class="author_questions">
-													<span href="#" class="d-flex align-items-center gap-2">
-														<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													  <h5>Quizz - Benifits for SEMs tab 3</h5>
-													</span>
+													<div class="left-columns">
+														<i class="fa-solid fa-question fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<h6 class="column">4 question</h6>
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												  </a>
 												  <a href="#" class="author_questions">
-													<span href="#" class="d-flex align-items-center gap-2">
-														<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													  <h5>Quizz - Benifits for SEMs tab 3</h5>
-													</span>
+													<div class="left-columns">
+														<i class="fa-regular fa-file fa-2xl column" style="color: #D39E48;"></i>
+													<h5 class="column">Quizz - Benifits for SEMs</h5>
+												</div>
+													<div class="right-columns">
+														<!-- <h6 class="column">4 question</h6> -->
+														<i class="fa-solid fa-check column" style="color: green;"></i>
+													</div>
 												  </a>
-												  <a href="#" class="author_questions">
-													<span href="#" class="d-flex align-items-center gap-2">
-														<i class="fa-regular fa-file fa-2xl" style="color: #FFD43B;"></i>
-													  <h5>Quizz - Benifits for SEMs tab 3</h5>
-													</span>
-												  </a>
+
 										
-												  <button id="load-more-btn-tab-3" class="btn btn-custom mb-2">Load More</button>
+												  <button id="load-more-btn-tab-3" class="btn btn-custom mb-2">show more details</button>
 												</div>
 											</div>     
 										<div> 
 										
 <!-- cards -->
-											<h2 class="pt-2 text-center text-warning">Course Info</h2>
-											 <div class="card" style="width: 18rem;">
+											<h2 class=" course_title">Course Info</h2>
+											 <div class="card" style="width: 20rem;">
 										
 													<div class="card-body">
-													  <a href="#" class="btn btn-custom mb-2">Continue</a>
-													  <h5 class="card-title py-2">You Start On:</h5>
-													  <h5 class="card-title py-2">Course Will end:</h5>
+													  <a href="#" class="btn btn-outline-secondary  mb-2">Continue</a>
+													  <h5 class="card-title py-2">You Start On:<span>May 5 ,2023</span></h5>
+													  
+													  <h5 class="card-title py-2">Course Will end: <span>november 5 ,2023</span></h5>
 														<span class="straight-line"></span>
 										
-												  <h6 class="card-title py-2">Lessons Completed:</h5>
-												  <h6 class="card-title py-2">Quiz Finished:</h5>
-												  <h6 class="card-title py-2">Course Progress:</h5>
+												  <h6 class="card-title py-2">Lessons Completed: <span>2/10</span></h5>
+												  <h6 class="card-title py-2">Quiz Finished: <span>2/10</span></h5>
+												  <h6 class="card-title py-2">Course Progress: <span>20%</span> </h5>
 													<!-- progress section -->
 													<div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
 														<div class="progress-bar" style="width: 25% ;background-color:#D39E48"></div>
@@ -446,11 +538,11 @@
 										
 												</div>
 										</div>
-										<h2 class="pt-1 text-center text-warning">Social share</h2> 
+										<h2 class="pt-2  course_title">Social share</h2> 
 										<span class="icons">
-											<i class="fa-brands fa-linkedin   fa-2xl" style="color: #74C0FC;"></i>
-											<i class="fa-brands fa-pinterest   fa-2xl" style="color: #ff1a1a;"></i>
-											<i class="fa-brands fa-facebook   fa-2xl" style="color: #74C0FC;"></i>
+											<i class="fa-brands fa-linkedin  fa-2xl" style="color: #74C0FC;  padding-right: 12px;" ></i>
+											<i class="fa-brands fa-pinterest  fa-2xl" style="color: #ff1a1a; padding-right: 12px;"></i>
+											<i class="fa-brands fa-facebook   fa-2xl" style="color: #74C0FC; padding-right: 12px;"></i>
 										</span>
 										
 										</div>
